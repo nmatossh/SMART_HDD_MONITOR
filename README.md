@@ -1,3 +1,5 @@
 # HDD Smart Monitoring Script
 
-For Windows  ---> Right click - Run with Powershell
+Control de monitoreo personal básico para smart en 2 HDD RAID1 
+
+En Windows ---> Ejecutar con Powershell
