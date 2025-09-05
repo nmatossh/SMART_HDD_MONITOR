@@ -1,4 +1,3 @@
 # HDD Smart Monitoring Script
 
-For Windows  ---> 
-For Linux    --->
+For Windows  ---> Right click - Run with Powershell
