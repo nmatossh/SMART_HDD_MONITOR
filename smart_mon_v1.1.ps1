@@ -1,4 +1,4 @@
-﻿# Ruta del log
+# Ruta del log
 $logPath = "D:\Logs\smart_log.txt"
 
 # Discos a monitorear
@@ -27,7 +27,7 @@ while ($true) {
         Write-Host "Se registró el disco $d a las $(Get-Date -Format 'HH:mm:ss')"
     }
 
-    $waitSeconds = 30  # 10 minutos
+    $waitSeconds = 600  # 10 minutos
     for ($i = $waitSeconds; $i -ge 0; $i--) {
         $minutes = [int]([math]::Floor($i / 60))
         $seconds = [int]($i % 60)
